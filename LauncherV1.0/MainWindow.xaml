@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="xd" x:Name="AllFilesLabel" HorizontalAlignment="Center" Margin="299,10,0.4,0" VerticalAlignment="Top" Height="301" Width="219"/>
+        <ListView x:Name="VypisVsech" HorizontalAlignment="Left" Height="196" Margin="10,10,0,0" VerticalAlignment="Top" Width="284">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="LAUNCH THAT SHIIIIIIIIIIT" HorizontalAlignment="Left" Margin="41,211,0,0" VerticalAlignment="Top" Width="216" Height="40" Click="Button_Click"/>
+
     </Grid>
 </Window>
